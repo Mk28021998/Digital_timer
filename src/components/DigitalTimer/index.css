@@ -1,0 +1,113 @@
+/* Write your CSS here */
+.app-container {
+  background-image: linear-gradient(to right, #defafe, #cffcf1);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.heading {
+  color: #0f172a;
+  font-size: 32px;
+  font-weight: 600;
+  font-family: roboto;
+}
+.digital-timer-cont {
+  display: flex;
+}
+.timer-display-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-size: cover;
+  background-position: center;
+  height: 380px;
+  width: 450px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.elapsed-timer-cont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  width: 180px;
+  height: 180px;
+  border-radius: 100%;
+}
+.label {
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: roboto;
+}
+.time-limit-controller-cont {
+  display: flex;
+  flex-direction: column;
+}
+.limit-label {
+  font-size: 12px;
+  font-family: roboto;
+  color: #1e293b;
+}
+.time-limit-control {
+  display: flex;
+}
+.button {
+  font-size: 25px;
+  font-weight: bold;
+  color: #1e293b;
+  height: 30px;
+  width: 25px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+.limit-label-and-value-cont {
+  background-image: linear-gradient(to right, #00f5a0, #00d9f5);
+  height: 35px;
+  width: 65px;
+  margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.limit-value {
+  font-size: 15px;
+  font-weight: bold;
+  font-family: roboto;
+}
+.time-control-container {
+  display: flex;
+}
+.start-or-pause-btn {
+  border-radius: 5px;
+  height: 30px;
+  width: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.start-or-pause-and-restart-img {
+  height: 25px;
+  width: 25px;
+}
+.start-or-pause-and-restart-label {
+  color: #1e293b;
+  font-size: 15px;
+  font-weight: bold;
+  font-family: roboto;
+}
+.restart-btn {
+  border-radius: 5px;
+  height: 30px;
+  width: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
